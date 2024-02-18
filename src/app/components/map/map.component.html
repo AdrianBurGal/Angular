@@ -1,0 +1,25 @@
+<div id="main">
+  <div id="map"></div>
+  <div id="information">
+    <h1>Information</h1>
+    <div class="location">
+      <i class="fa-solid fa-street-view"></i>
+      If you want to see your location,<a (click)="showCurrentLocation()">click here</a>
+    </div>
+    <div class="location">
+      <i class="fa-solid fa-house-chimney"></i>
+      If you want to see the house,<a (click)="showLocation()">click here</a>
+    </div>
+    <div class="mainWeather">
+      <div class="weather">
+        <h2>Weather in {{ weather.name}}</h2>
+        <p>Temperature: {{weather.temperature}} ºC</p>
+        <p>Condition: {{weather.text}}</p>
+        <p>Time: {{weather.localtime}}</p></div>
+      <div id="icon">
+        <img src="{{weather.urlIcon}}">
+      </div>
+    </div>
+  </div>
+</div>
+

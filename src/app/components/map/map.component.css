@@ -1,0 +1,57 @@
+#map {
+  width: 60%;
+  height: 645px;
+  box-shadow: 5px 5px #888;
+  margin: 10px;
+}
+
+#main {
+  display: flex;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 50px 30px;
+}
+
+a {
+  cursor: pointer;
+  margin-left: 5px;
+  color: blue;
+}
+
+i {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin-left: -20px;
+  margin-top: -15px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainWeather {
+  display: flex;
+  margin-top: 40px;
+}
+
+img {
+  margin-top: 30px;
+}
+
+
