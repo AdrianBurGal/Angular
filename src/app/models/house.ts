@@ -10,4 +10,5 @@ export interface House {
   laundry: boolean;
   latitude: number;
   longitude: number;
+  satisfaction: number;
 }
